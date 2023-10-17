@@ -13,6 +13,9 @@ hero:
     src: /xwlogo.png
     alt: apass
   actions:
+    - theme: brand
+      text: Flycode代码生成器
+      link: /doc/monkey
     - theme: alt mastering-pinia
       text: 快速开始
       link: /doc/quickstart
@@ -22,6 +25,7 @@ hero:
     - theme: alt cat
       text: UIFlycode文档
       link: /doc/wpdoc/UIFlycode概述
+
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
