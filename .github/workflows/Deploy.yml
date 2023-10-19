@@ -13,11 +13,13 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm i yarn -g
-      - run: yarn install
+      - run: npm i pnpm -g
+      - run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: yarn docs:build
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
+        run: pnpm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
