@@ -5,7 +5,7 @@ const code = 'fbfeeb586a5ffa8105b72d4923fe7db1';
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
   {
-
+    base: '/flydoc/',
     lang: 'zh-cn',
     title: "Flydoc",
     description: "Flydoc Web Site",
