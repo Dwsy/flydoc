@@ -27,6 +27,10 @@ export default defineConfig(
       lineNumbers: true
     },
     themeConfig: {
+      editLink: {
+        pattern: 'https://github.com/Dwsy/flydoc/:path',
+        text: 'Edit this page on GitHub'
+      },
       logo: { light: '/xwlogoblue.png', dark: '/xwlogoblue.png' },
       // https://vitepress.dev/reference/default-theme-config
       nav: [
