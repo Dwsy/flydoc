@@ -10,6 +10,7 @@ interface reqJson {
   username: string; // shisiping
   password: string; // 123456
   body: Object; // 对象形式请求体
+  timeOut?: number //超时时间（毫秒）非必填默认300秒
 }
 ```
 
@@ -65,9 +66,7 @@ var reqJson = {
 };
 var ip_port = "119.6.204.184:50100";
 reqJson.url =
-  "http://" +
-  ip_port +
-  "/XISOAPAdapter/MessageServlet?senderParty=&senderService=BS_DPBP&receiverParty=&receiverService=&interface=SI_MaterailData_Out_Syn&interfaceNamespace=urn:newhopedairy.cn:dpbp:sd:oubound";
+  "http:\/\/" +ip_port +"\/XISOAPAdapter\/MessageServlet?senderParty=&senderService=BS_DPBP&receiverParty=&receiverService=&interface=SI_MaterailData_Out_Syn&interfaceNamespace=urn:newhopedairy.cn:dpbp:sd:oubound";
 var temp = FLY.call("microservice.wstohttp", reqJson);
 FLY.log(temp);
 ```

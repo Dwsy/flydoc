@@ -12,7 +12,8 @@
 
 保存领域时如果保存时间成功消息弹出太慢建议保存后刷新页面或者再次保存，因为插件协议数据是通过请求获取的而不是`monaco`编辑器中的数据
 
-> \*\*暂只适配了 http://ide.wxchina.com:9000/
+> IDE更新到5.10版本打包方式更改，monaco全局变量无法调用所以手动设置全局变量暴露并反向代理了IDE网站
+> 反向代理版本IDE URL:http://xwide.dwsy.link/
 > :::
 
 ### 功能介绍
@@ -41,7 +42,5 @@
 创建领域操作类型选择`导出`配置`输入`后配置映射关系即可
 ![Alt text](./monkey/image-7.png)
 
-5. 日间模式
-   ![Alt text](./monkey/image-8.png)
-   check here
-   变不回去 问就是没写。。。
+5. 主题切换以及去除彩虹括号
+![Alt text](image.png)
