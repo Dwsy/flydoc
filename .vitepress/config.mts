@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
 const code = 'fbfeeb586a5ffa8105b72d4923fe7db1';
-const base = process.env.BaseUrl
-console.log(process.env.BaseUrl)
+// const base = process.env.BaseUrl
+// console.log(process.env.BaseUrl)
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
   {
-    base: base,
+    // base: base,
     lang: 'zh-cn',
     title: "Flydoc",
     description: "Flydoc Web Site",
