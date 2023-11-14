@@ -27,6 +27,10 @@ export default defineConfig(
       lineNumbers: true
     },
     themeConfig: {
+      outline: {
+        label: '目录',
+        level: [2, 3]
+      },
       editLink: {
         pattern: 'https://github.com/Dwsy/flydoc/:path',
         text: 'Edit this page on GitHub'

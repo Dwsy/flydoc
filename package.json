@@ -5,7 +5,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.14"
+    "vitepress": "^1.0.0-rc.25"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.24",

@@ -7,9 +7,9 @@ import {
   ref,
   unref,
   watchEffect
-} from "./chunk-G3CMYKT2.js";
+} from "./chunk-TWW527LB.js";
 
-// node_modules/@vueuse/shared/index.mjs
+// node_modules/.pnpm/@vueuse+shared@10.6.0_vue@3.3.8/node_modules/@vueuse/shared/index.mjs
 function tryOnScopeDispose(fn) {
   if (getCurrentScope()) {
     onScopeDispose(fn);
@@ -21,6 +21,7 @@ function toValue(r) {
   return typeof r === "function" ? r() : unref(r);
 }
 var isClient = typeof window !== "undefined" && typeof document !== "undefined";
+var isWorker = typeof WorkerGlobalScope !== "undefined" && globalThis instanceof WorkerGlobalScope;
 var isIOS = getIsIOS();
 function getIsIOS() {
   var _a;
@@ -34,9 +35,7 @@ function cacheStringFunction(fn) {
   };
 }
 var hyphenateRE = /\B([A-Z])/g;
-var hyphenate = cacheStringFunction(
-  (str) => str.replace(hyphenateRE, "-$1").toLowerCase()
-);
+var hyphenate = cacheStringFunction((str) => str.replace(hyphenateRE, "-$1").toLowerCase());
 var camelizeRE = /-(\w)/g;
 var camelize = cacheStringFunction((str) => {
   return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : "");
@@ -45,7 +44,7 @@ function identity(arg) {
   return arg;
 }
 
-// node_modules/@vueuse/core/index.mjs
+// node_modules/.pnpm/@vueuse+core@10.6.0_vue@3.3.8/node_modules/@vueuse/core/index.mjs
 function unrefElement(elRef) {
   var _a;
   const plain = toValue(elRef);
@@ -168,4 +167,4 @@ export {
   unrefElement,
   useMediaQuery
 };
-//# sourceMappingURL=chunk-PG22W7VU.js.map
+//# sourceMappingURL=chunk-MLMU3U2T.js.map
