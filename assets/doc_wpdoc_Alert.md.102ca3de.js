@@ -1,0 +1,49 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.aac09c5f.js";const b=JSON.parse('{"title":"Alert","description":"","frontmatter":{"title":"Alert","date":"2020-05-22T15:53:55.000Z"},"headers":[],"relativePath":"doc/wpdoc/Alert.md","filePath":"doc/wpdoc/Alert.md"}'),p={name:"doc/wpdoc/Alert.md"},o=l(`<h1 id="alert" tabindex="-1">Alert <a class="header-anchor" href="#alert" aria-label="Permalink to &quot;Alert&quot;">​</a></h1><p>警告信息，用于显示提示或警告信息。</p><div class="language-json vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#E1E4E8;">{</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#79B8FF;">&quot;type&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;alert&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#79B8FF;">&quot;condition&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#79B8FF;">&quot;message&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;确定要启用选中的终端吗？&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#79B8FF;">&quot;choices&quot;</span><span style="color:#E1E4E8;">: [</span></span>
+<span class="line"><span style="color:#E1E4E8;">        {</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;title&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;确定&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;handler&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;22222222222&quot;</span></span>
+<span class="line"><span style="color:#E1E4E8;">        },</span></span>
+<span class="line"><span style="color:#E1E4E8;">        {</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;title&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;取消&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;handler&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;&quot;</span></span>
+<span class="line"><span style="color:#E1E4E8;">        }</span></span>
+<span class="line"><span style="color:#E1E4E8;">    ],</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#79B8FF;">&quot;buttons&quot;</span><span style="color:#E1E4E8;">: [</span></span>
+<span class="line"><span style="color:#E1E4E8;">        {</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;title&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;确定&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;handler&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;&quot;</span></span>
+<span class="line"><span style="color:#E1E4E8;">        },</span></span>
+<span class="line"><span style="color:#E1E4E8;">        {</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;title&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;取消&quot;</span><span style="color:#E1E4E8;">,</span></span>
+<span class="line"><span style="color:#E1E4E8;">            </span><span style="color:#79B8FF;">&quot;handler&quot;</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&quot;&quot;</span></span>
+<span class="line"><span style="color:#E1E4E8;">        }</span></span>
+<span class="line"><span style="color:#E1E4E8;">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;">}</span></span></code></pre><pre class="shiki github-light vp-code-light"><code><span class="line"><span style="color:#24292E;">{</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#005CC5;">&quot;type&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;alert&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#005CC5;">&quot;condition&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#005CC5;">&quot;message&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;确定要启用选中的终端吗？&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#005CC5;">&quot;choices&quot;</span><span style="color:#24292E;">: [</span></span>
+<span class="line"><span style="color:#24292E;">        {</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;title&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;确定&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;handler&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;22222222222&quot;</span></span>
+<span class="line"><span style="color:#24292E;">        },</span></span>
+<span class="line"><span style="color:#24292E;">        {</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;title&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;取消&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;handler&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;&quot;</span></span>
+<span class="line"><span style="color:#24292E;">        }</span></span>
+<span class="line"><span style="color:#24292E;">    ],</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#005CC5;">&quot;buttons&quot;</span><span style="color:#24292E;">: [</span></span>
+<span class="line"><span style="color:#24292E;">        {</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;title&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;确定&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;handler&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;&quot;</span></span>
+<span class="line"><span style="color:#24292E;">        },</span></span>
+<span class="line"><span style="color:#24292E;">        {</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;title&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;取消&quot;</span><span style="color:#24292E;">,</span></span>
+<span class="line"><span style="color:#24292E;">            </span><span style="color:#005CC5;">&quot;handler&quot;</span><span style="color:#24292E;">: </span><span style="color:#032F62;">&quot;&quot;</span></span>
+<span class="line"><span style="color:#24292E;">        }</span></span>
+<span class="line"><span style="color:#24292E;">    ]</span></span>
+<span class="line"><span style="color:#24292E;">}</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><ul><li><p>message</p><p>显示内容，支持字符串表达式</p></li><li><p>choices</p><p>定义提示的按钮操作。</p><p><strong>当没有配置任何按钮时，alert显示为一个3秒后自动消失的消息框</strong></p><ul><li>title</li></ul><p>按钮标题</p><ul><li>handler</li></ul><p>按钮对应的执行事件，如果没有配置则不执行任何事件</p></li></ul><blockquote><p>alert事件不会阻塞事件执行，因此配置在alert之后的事件将会继续执行</p></blockquote><ul><li><p>buttons</p><p>旧协议内容。</p><p>有且只有两个按钮，点击确定继续执行事件，点击取消中止当前事件</p></li></ul>`,6),e=[o];function t(c,r,E,u,y,i){return n(),a("div",null,e)}const F=s(p,[["render",t]]);export{b as __pageData,F as default};
