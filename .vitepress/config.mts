@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 const code = 'fbfeeb586a5ffa8105b72d4923fe7db1';
+
 // const base = process.env.BaseUrl
 // console.log(process.env.BaseUrl)
 // https://vitepress.dev/reference/site-config
@@ -19,9 +20,22 @@ export default defineConfig(
         hm.src = "https://hm.baidu.com/hm.js?fbfeeb586a5ffa8105b72d4923fe7db1";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
+        const startEmbedChatbot = setInterval(() => { 
+          if(embedChatbot)
+          {
+            clearInterval(startEmbedChatbot); 
+            embedChatbot() 
+          }
+        }, 1000)
       })();
      `
-    ]
+    ],
+    ['script', {
+      src: 'https://fastgpt.run/js/iframe.js',
+      id: 'fastgpt-iframe',
+      'data-src': "https://fastgpt.run/chat/share?shareId=4c6bej4bah0ee9h0maz7dqxk",
+      'data-color': "#4e83fd"
+    }]
     ],
     markdown: {
       lineNumbers: true
