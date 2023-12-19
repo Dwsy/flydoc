@@ -44,6 +44,12 @@ export default defineConfig(
       'data-src': "https://ai.fastgpt.in/chat/share?shareId=ndqz488jm82dd9kwva48tyg3",
       'data-color': "#4e83fd"
     }],
+    ['style', {
+      innerHTML: `
+       .language-js vp-adaptive-theme line-numbers-mode {
+        height: 350px;
+      }`
+    }]
       // <script src="https://ai.fastgpt.in/js/iframe.js" id="fastgpt-iframe" data-src="https://ai.fastgpt.in/chat/share?shareId=ndqz488jm82dd9kwva48tyg3" data-color="#4e83fd"></script>
       // ['script', {
       //   src: 'https://jsp.dwsy.link/-----https://fastgpt.run/js/iframe.js',

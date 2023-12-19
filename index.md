@@ -13,14 +13,14 @@ hero:
     src: /xwlogo.png
     alt: apass
   actions:
-    - theme: brand
+    - theme: cat
       text: Flycode代码生成器
-      link: /doc/monkey
+      link: /doc/rie/flycodegenerator2.md
     - theme: alt mastering-pinia
       text: 快速开始
       link: /doc/quickstart
     - theme: alt cat
-      text: Flycode文档  
+      text: Flycode文档
       link: /doc/wpdoc/flycode简介
     - theme: alt cat
       text: UIFlycode文档
