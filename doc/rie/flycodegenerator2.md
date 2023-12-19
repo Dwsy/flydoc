@@ -35,7 +35,7 @@ Github Link
 ::: tip
 
 > 1.0 版本使用油猴加载，2.0 可以独立运行，but 因为 IDE5.1 版本关闭了 monaco 的 global api 所以针对 IDE 做了一些需要使用我的反向代理网址
-> [点击这里打开](http://xwide.dwsy.link/#/login)
+> [点击这里打开](http://xwide.dwsy.link/#/login) 已内置插件无需安装油猴版本
 
 油猴插件版本菜单可以在油猴中配置功能开关
 ![Alt text](image-20.png)
