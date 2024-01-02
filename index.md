@@ -13,7 +13,7 @@ hero:
     src: /xwlogo.png
     alt: apass
   actions:
-    - theme: cat
+    - theme: brand
       text: Flycode代码生成器
       link: /doc/rie/flycodegenerator2.md
     - theme: alt mastering-pinia

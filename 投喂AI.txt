@@ -1,6 +1,6 @@
-1. 简介
-   1.1. 什么是 flycode
-   flycode 是一种采用 javascript 语法，并可以结合 sql 语法进行数据查询的语言。
+
+
+flycode 是一种采用 javascript 语法，并可以结合 sql 语法进行数据查询的语言。
 
 配置开发工程师，使用 flycode 仅需要编写业务相关逻辑。业务引擎会发布相应的服务接口，并自动处理多租户隔离、数据离线、数据追踪、数据权限、分页、排序等  平台逻辑。
 
@@ -6598,14 +6598,3 @@ sheet.setCellWidth(3, 25); //设置列宽
 sheet.setCellWidth(5, 25); //设置列宽
 EXCEL.setTotalCount(1);
 EXCEL.export("订单");
-
-
-
-
-
-
-
-
-
-
-$$

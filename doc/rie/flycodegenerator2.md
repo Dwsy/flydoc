@@ -1837,7 +1837,7 @@ Flycode 代码补全以及代码提示
 
 ---
 
-### 3.代码生成
+### 4.代码生成
 
 ::: info
 代码生成只有一个快捷键 WIN(Ctrl+B) Mac(Cmd+B)
@@ -1902,16 +1902,17 @@ LEFT JOIN xxw_promotion_activity as xpa_bus ON xpa_bus.id = xmp.business_activit
 编辑器中输入 (`for`) + xxx WIN(Ctrl+B) Mac(Cmd+B) 即可生成。
 ![Alt text](image-16.png)
 
-### 4.SQL 格式化(win:Ctrl + F9 Mac:Cmd + F9)
+### 5.SQL 格式化(win:Ctrl + F9 Mac:Cmd + F9)
 
-after
+before
 
 ![Alt text](image-14.png)
 
-before
+after
+
 ![Alt text](image-15.png)
 
-### 5. 主题自定义及代码高亮
+### 6. 主题自定义及代码高亮
 
 PS : 暂时只适配了浅色主题
 
@@ -1919,9 +1920,10 @@ PS : 暂时只适配了浅色主题
 
 ---
 
-**after**
+**before**
 ![Alt text](image-18.png)
-**befor**
+
+**after**
 ![Alt text](image-17.png)
 
 <style>
