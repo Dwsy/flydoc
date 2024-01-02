@@ -1,11 +1,30 @@
 ---
-title: FlyCodeGenerator 2.0 Released 🚀
+title: FlyCodeGenerator 版本日志 🚀
 layout: doc
 ---
 
-# FlyCodeGenerator 2.0 Released 🚀
+# FlyCodeGenerator 版本日志
+
+# FlyCodeGenerator 2.1 Released 🚀
+
+## 更新日志
+
+1.使用 pretty 进行代码格式化 2.使用 babel 对高版本 es 语法进行降级 支持 es2017
+![Alt text](image-21.png)
+![Alt text](image-22.png) 3.支持 SQL 列查询代码提示
+![Alt text](image-26.png)
+from 语句前自动补全逗号与注释后与函数调用只补全字段
+![Alt text](image-27.png) 4.添加了一堆代码片段
+如 for if fori foin foof
+常用的如 ifend join 啥的
+![Alt text](image-28.png) 3.移植了 vscode 默认主题
+![Alt text](image-23.png)
+![Alt text](image-24.png) 4.添加了 Monokai 暗黑模式主题
+![Alt text](image-25.png)
 
 > 2.0 版本代码生成器主要针对稳定性做了一些优化，以及增加了一些快速生成代码的功能。
+
+# FlyCodeGenerator 2.0 Released 🚀
 
 Github Link
 [FlyCodeGenerator 2.0](github.com/dwsy/flycodegenerator)
