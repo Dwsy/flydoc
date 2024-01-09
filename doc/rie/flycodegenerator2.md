@@ -3,6 +3,10 @@ title: FlyCodeGenerator 版本日志 🚀
 layout: doc
 ---
 
+# This repository has been archived by the owner on Jan 9, 2024. It is now read-only.
+
+> https://github.com/Dwsy/FlyCodeGenerator/
+
 # FlyCodeGenerator 版本日志
 
 ## FlyCodeGenerator 2.2 Released 🚀

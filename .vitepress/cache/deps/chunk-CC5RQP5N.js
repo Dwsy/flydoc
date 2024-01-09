@@ -7,9 +7,9 @@ import {
   ref,
   unref,
   watchEffect
-} from "./chunk-TWW527LB.js";
+} from "./chunk-HVMSZDGX.js";
 
-// node_modules/.pnpm/@vueuse+shared@10.6.0_vue@3.3.8/node_modules/@vueuse/shared/index.mjs
+// node_modules/.pnpm/@vueuse+shared@10.7.0_vue@3.3.13/node_modules/@vueuse/shared/index.mjs
 function tryOnScopeDispose(fn) {
   if (getCurrentScope()) {
     onScopeDispose(fn);
@@ -24,8 +24,8 @@ var isClient = typeof window !== "undefined" && typeof document !== "undefined";
 var isWorker = typeof WorkerGlobalScope !== "undefined" && globalThis instanceof WorkerGlobalScope;
 var isIOS = getIsIOS();
 function getIsIOS() {
-  var _a;
-  return isClient && ((_a = window == null ? void 0 : window.navigator) == null ? void 0 : _a.userAgent) && /iP(ad|hone|od)/.test(window.navigator.userAgent);
+  var _a, _b;
+  return isClient && ((_a = window == null ? void 0 : window.navigator) == null ? void 0 : _a.userAgent) && (/iP(ad|hone|od)/.test(window.navigator.userAgent) || ((_b = window == null ? void 0 : window.navigator) == null ? void 0 : _b.maxTouchPoints) > 2 && /iPad|Macintosh/.test(window == null ? void 0 : window.navigator.userAgent));
 }
 function cacheStringFunction(fn) {
   const cache = /* @__PURE__ */ Object.create(null);
@@ -44,7 +44,7 @@ function identity(arg) {
   return arg;
 }
 
-// node_modules/.pnpm/@vueuse+core@10.6.0_vue@3.3.8/node_modules/@vueuse/core/index.mjs
+// node_modules/.pnpm/@vueuse+core@10.7.0_vue@3.3.13/node_modules/@vueuse/core/index.mjs
 function unrefElement(elRef) {
   var _a;
   const plain = toValue(elRef);
@@ -167,4 +167,4 @@ export {
   unrefElement,
   useMediaQuery
 };
-//# sourceMappingURL=chunk-MLMU3U2T.js.map
+//# sourceMappingURL=chunk-CC5RQP5N.js.map
